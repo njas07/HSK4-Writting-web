@@ -1,0 +1,3602 @@
+[
+  {
+    "id": 1,
+    "h": "爱情",
+    "p": "àiqíng",
+    "en": "Love"
+  },
+  {
+    "id": 2,
+    "h": "安排",
+    "p": "ānpái",
+    "en": "arrange"
+  },
+  {
+    "id": 3,
+    "h": "安全",
+    "p": "ānquán",
+    "en": "security"
+  },
+  {
+    "id": 4,
+    "h": "按时",
+    "p": "ànshí",
+    "en": "on time"
+  },
+  {
+    "id": 5,
+    "h": "按照",
+    "p": "ànzhào",
+    "en": "according to"
+  },
+  {
+    "id": 6,
+    "h": "百分之",
+    "p": "bǎifēnzhī",
+    "en": "percent"
+  },
+  {
+    "id": 7,
+    "h": "棒",
+    "p": "bàng",
+    "en": "stick；excellent"
+  },
+  {
+    "id": 8,
+    "h": "包子",
+    "p": "bāozi",
+    "en": "Steamed stuffed bun"
+  },
+  {
+    "id": 9,
+    "h": "保护",
+    "p": "bǎohù",
+    "en": "protect"
+  },
+  {
+    "id": 10,
+    "h": "保证",
+    "p": "bǎozhèng",
+    "en": "ensure"
+  },
+  {
+    "id": 11,
+    "h": "抱",
+    "p": "bào",
+    "en": "Hold"
+  },
+  {
+    "id": 12,
+    "h": "抱歉",
+    "p": "bàoqiàn",
+    "en": "feel sorry"
+  },
+  {
+    "id": 13,
+    "h": "报名",
+    "p": "bàomíng",
+    "en": "sign up"
+  },
+  {
+    "id": 14,
+    "h": "倍",
+    "p": "bèi",
+    "en": "times"
+  },
+  {
+    "id": 15,
+    "h": "本来",
+    "p": "běnlái",
+    "en": "originally"
+  },
+  {
+    "id": 16,
+    "h": "笨",
+    "p": "bèn",
+    "en": "stupid"
+  },
+  {
+    "id": 17,
+    "h": "比如",
+    "p": "bǐrú",
+    "en": "such as"
+  },
+  {
+    "id": 18,
+    "h": "毕业",
+    "p": "bìyè",
+    "en": "graduation"
+  },
+  {
+    "id": 19,
+    "h": "遍",
+    "p": "biàn",
+    "en": "Times"
+  },
+  {
+    "id": 20,
+    "h": "标准",
+    "p": "biāozhǔn",
+    "en": "standard"
+  },
+  {
+    "id": 21,
+    "h": "表格",
+    "p": "biǎogé",
+    "en": "form"
+  },
+  {
+    "id": 22,
+    "h": "表示",
+    "p": "biǎoshì",
+    "en": "Express"
+  },
+  {
+    "id": 23,
+    "h": "表演",
+    "p": "biǎoyǎn",
+    "en": "perform"
+  },
+  {
+    "id": 24,
+    "h": "表扬",
+    "p": "biǎoyáng",
+    "en": "Praise"
+  },
+  {
+    "id": 25,
+    "h": "饼干",
+    "p": "bǐnggān",
+    "en": "Biscuits"
+  },
+  {
+    "id": 26,
+    "h": "并且",
+    "p": "bìngqiě",
+    "en": "also"
+  },
+  {
+    "id": 27,
+    "h": "博士",
+    "p": "bóshì",
+    "en": "doctor"
+  },
+  {
+    "id": 28,
+    "h": "不过",
+    "p": "búguò",
+    "en": "However"
+  },
+  {
+    "id": 29,
+    "h": "不得不",
+    "p": "bùdébù",
+    "en": "have to"
+  },
+  {
+    "id": 30,
+    "h": "不管",
+    "p": "bùguǎn",
+    "en": "no matter"
+  },
+  {
+    "id": 31,
+    "h": "不仅",
+    "p": "bùjǐn",
+    "en": "not only"
+  },
+  {
+    "id": 32,
+    "h": "部分",
+    "p": "bùfen",
+    "en": "Part"
+  },
+  {
+    "id": 33,
+    "h": "擦",
+    "p": "cā",
+    "en": "wipe"
+  },
+  {
+    "id": 34,
+    "h": "猜",
+    "p": "cāi",
+    "en": "guess"
+  },
+  {
+    "id": 35,
+    "h": "材料",
+    "p": "cáiliào",
+    "en": "Material Science"
+  },
+  {
+    "id": 36,
+    "h": "参观",
+    "p": "cānguān",
+    "en": "visit"
+  },
+  {
+    "id": 37,
+    "h": "餐厅",
+    "p": "cāntīng",
+    "en": "Restaurant"
+  },
+  {
+    "id": 38,
+    "h": "差不多",
+    "p": "chàbuduō",
+    "en": "Almost"
+  },
+  {
+    "id": 39,
+    "h": "尝",
+    "p": "cháng",
+    "en": "taste"
+  },
+  {
+    "id": 40,
+    "h": "长城",
+    "p": "chángchéng",
+    "en": "The Great Wall"
+  },
+  {
+    "id": 41,
+    "h": "长江",
+    "p": "chángjiāng",
+    "en": "The Yangtze River"
+  },
+  {
+    "id": 42,
+    "h": "场",
+    "p": "chǎng",
+    "en": "site"
+  },
+  {
+    "id": 43,
+    "h": "超过",
+    "p": "chāoguò",
+    "en": "Exceed"
+  },
+  {
+    "id": 44,
+    "h": "厕所",
+    "p": "cèsuǒ",
+    "en": "Toilet"
+  },
+  {
+    "id": 45,
+    "h": "成功",
+    "p": "chénggōng",
+    "en": "Success"
+  },
+  {
+    "id": 46,
+    "h": "成为",
+    "p": "chéngwéi",
+    "en": "Become"
+  },
+  {
+    "id": 47,
+    "h": "诚实",
+    "p": "chéngshí",
+    "en": "honest"
+  },
+  {
+    "id": 48,
+    "h": "乘坐",
+    "p": "chéngzuò",
+    "en": "ride"
+  },
+  {
+    "id": 49,
+    "h": "吃惊",
+    "p": "chījīng",
+    "en": "Be amazed"
+  },
+  {
+    "id": 50,
+    "h": "重新",
+    "p": "chóngxīn",
+    "en": "again"
+  },
+  {
+    "id": 51,
+    "h": "抽烟",
+    "p": "chōuyān",
+    "en": "smoking"
+  },
+  {
+    "id": 52,
+    "h": "出差",
+    "p": "chūchāi",
+    "en": "A business travel"
+  },
+  {
+    "id": 53,
+    "h": "出发",
+    "p": "chūfā",
+    "en": "Set out"
+  },
+  {
+    "id": 54,
+    "h": "出生",
+    "p": "chūshēng",
+    "en": "Birth"
+  },
+  {
+    "id": 55,
+    "h": "出现",
+    "p": "chūxiàn",
+    "en": "Appear"
+  },
+  {
+    "id": 56,
+    "h": "厨房",
+    "p": "chúfáng",
+    "en": "Kitchen"
+  },
+  {
+    "id": 57,
+    "h": "传真",
+    "p": "chuánzhēn",
+    "en": "Fax"
+  },
+  {
+    "id": 58,
+    "h": "窗户",
+    "p": "chuānghu",
+    "en": "Window"
+  },
+  {
+    "id": 59,
+    "h": "词语",
+    "p": "cíyǔ",
+    "en": "terms, words"
+  },
+  {
+    "id": 60,
+    "h": "从来",
+    "p": "cónglái",
+    "en": "Always"
+  },
+  {
+    "id": 61,
+    "h": "粗心",
+    "p": "cūxīn",
+    "en": "careless"
+  },
+  {
+    "id": 62,
+    "h": "存",
+    "p": "cún",
+    "en": "Deposit"
+  },
+  {
+    "id": 63,
+    "h": "错误",
+    "p": "cuòwù",
+    "en": "error"
+  },
+  {
+    "id": 64,
+    "h": "答案",
+    "p": "dá'àn",
+    "en": "Answer"
+  },
+  {
+    "id": 65,
+    "h": "打招呼",
+    "p": "dǎzhāohu",
+    "en": "Say hello"
+  },
+  {
+    "id": 66,
+    "h": "打扮",
+    "p": "dǎban",
+    "en": "dress up"
+  },
+  {
+    "id": 67,
+    "h": "打扰",
+    "p": "dǎrǎo",
+    "en": "Disturb"
+  },
+  {
+    "id": 68,
+    "h": "打印",
+    "p": "dǎyìn",
+    "en": "Print"
+  },
+  {
+    "id": 69,
+    "h": "打折",
+    "p": "dǎzhé",
+    "en": "Discount"
+  },
+  {
+    "id": 70,
+    "h": "打针",
+    "p": "dǎzhēn",
+    "en": "To make an injection"
+  },
+  {
+    "id": 71,
+    "h": "大概",
+    "p": "dàgài",
+    "en": "Probably"
+  },
+  {
+    "id": 72,
+    "h": "大使馆",
+    "p": "dàshǐguǎn",
+    "en": "Embassy"
+  },
+  {
+    "id": 73,
+    "h": "大约",
+    "p": "dàyuē",
+    "en": "about"
+  },
+  {
+    "id": 74,
+    "h": "戴",
+    "p": "dài",
+    "en": "wear"
+  },
+  {
+    "id": 75,
+    "h": "大夫",
+    "p": "dàifu",
+    "en": "Doctor"
+  },
+  {
+    "id": 76,
+    "h": "当",
+    "p": "dāng",
+    "en": "When"
+  },
+  {
+    "id": 77,
+    "h": "当时",
+    "p": "dāngshí",
+    "en": "at that time"
+  },
+  {
+    "id": 78,
+    "h": "刀",
+    "p": "dāo",
+    "en": "knife"
+  },
+  {
+    "id": 79,
+    "h": "导游",
+    "p": "dǎoyóu",
+    "en": "Guide"
+  },
+  {
+    "id": 80,
+    "h": "倒",
+    "p": "dào",
+    "en": "inverted"
+  },
+  {
+    "id": 81,
+    "h": "到处",
+    "p": "dàochù",
+    "en": "everywhere"
+  },
+  {
+    "id": 82,
+    "h": "到底",
+    "p": "dàodǐ",
+    "en": "To the end"
+  },
+  {
+    "id": 83,
+    "h": "道歉",
+    "p": "dàoqiàn",
+    "en": "apologize"
+  },
+  {
+    "id": 84,
+    "h": "得意",
+    "p": "déyì",
+    "en": "Proud"
+  },
+  {
+    "id": 85,
+    "h": "地点",
+    "p": "dìdiǎn",
+    "en": "location"
+  },
+  {
+    "id": 86,
+    "h": "得",
+    "p": "děi",
+    "en": "have to"
+  },
+  {
+    "id": 87,
+    "h": "登机牌",
+    "p": "dēngjīpái",
+    "en": "Boarding pass"
+  },
+  {
+    "id": 88,
+    "h": "等",
+    "p": "（动）",
+    "en": "děng Wait (verb)"
+  },
+  {
+    "id": 89,
+    "h": "低",
+    "p": "dī",
+    "en": "low"
+  },
+  {
+    "id": 90,
+    "h": "底",
+    "p": "dǐ",
+    "en": "bottom"
+  },
+  {
+    "id": 91,
+    "h": "地球",
+    "p": "dìqiú",
+    "en": "earth"
+  },
+  {
+    "id": 92,
+    "h": "地址",
+    "p": "dìzhǐ",
+    "en": "address"
+  },
+  {
+    "id": 93,
+    "h": "掉",
+    "p": "diào",
+    "en": "fall"
+  },
+  {
+    "id": 94,
+    "h": "调查",
+    "p": "diàochá",
+    "en": "investigation"
+  },
+  {
+    "id": 95,
+    "h": "丢",
+    "p": "diū",
+    "en": "lose"
+  },
+  {
+    "id": 96,
+    "h": "动作",
+    "p": "dòngzuò",
+    "en": "action"
+  },
+  {
+    "id": 97,
+    "h": "堵车",
+    "p": "dǔchē",
+    "en": "Traffic jam"
+  },
+  {
+    "id": 98,
+    "h": "肚子",
+    "p": "dùzi",
+    "en": "belly"
+  },
+  {
+    "id": 99,
+    "h": "短信",
+    "p": "duǎnxìn",
+    "en": "Short message"
+  },
+  {
+    "id": 100,
+    "h": "对于",
+    "p": "duìyú",
+    "en": "about"
+  },
+  {
+    "id": 101,
+    "h": "对话",
+    "p": "duìhuà",
+    "en": "dialogue"
+  },
+  {
+    "id": 102,
+    "h": "对面",
+    "p": "duìmiàn",
+    "en": "Opposite side"
+  },
+  {
+    "id": 103,
+    "h": "而",
+    "p": "ér",
+    "en": "and"
+  },
+  {
+    "id": 104,
+    "h": "儿童",
+    "p": "értóng",
+    "en": "children"
+  },
+  {
+    "id": 105,
+    "h": "发生",
+    "p": "fāshēng",
+    "en": "Happen"
+  },
+  {
+    "id": 106,
+    "h": "发展",
+    "p": "fāzhǎn",
+    "en": "Development"
+  },
+  {
+    "id": 107,
+    "h": "法律",
+    "p": "fǎlǜ",
+    "en": "Law"
+  },
+  {
+    "id": 108,
+    "h": "翻译",
+    "p": "fānyì",
+    "en": "translate"
+  },
+  {
+    "id": 109,
+    "h": "烦恼",
+    "p": "fánnǎo",
+    "en": "annoyance"
+  },
+  {
+    "id": 110,
+    "h": "反对",
+    "p": "fǎnduì",
+    "en": "Opposition"
+  },
+  {
+    "id": 111,
+    "h": "方法",
+    "p": "fāngfǎ",
+    "en": "Method"
+  },
+  {
+    "id": 112,
+    "h": "方面",
+    "p": "fāngmiàn",
+    "en": "Aspect"
+  },
+  {
+    "id": 113,
+    "h": "方向",
+    "p": "fāngxiàng",
+    "en": "direction"
+  },
+  {
+    "id": 114,
+    "h": "房东",
+    "p": "fángdōng",
+    "en": "landlord"
+  },
+  {
+    "id": 115,
+    "h": "放弃",
+    "p": "fàngqì",
+    "en": "give up"
+  },
+  {
+    "id": 116,
+    "h": "放暑假",
+    "p": "fàngshǔjià",
+    "en": "summer vacation"
+  },
+  {
+    "id": 117,
+    "h": "放松",
+    "p": "fàngsōng",
+    "en": "Relax"
+  },
+  {
+    "id": 118,
+    "h": "份",
+    "p": "fèn",
+    "en": "share (measure word)"
+  },
+  {
+    "id": 119,
+    "h": "丰富",
+    "p": "fēngfù",
+    "en": "rich"
+  },
+  {
+    "id": 120,
+    "h": "否则",
+    "p": "fǒuzé",
+    "en": "otherwise"
+  },
+  {
+    "id": 121,
+    "h": "符合",
+    "p": "fúhé",
+    "en": "accord with"
+  },
+  {
+    "id": 122,
+    "h": "富",
+    "p": "fù",
+    "en": "rich"
+  },
+  {
+    "id": 123,
+    "h": "付款",
+    "p": "fùkuǎn",
+    "en": "pay"
+  },
+  {
+    "id": 124,
+    "h": "父亲",
+    "p": "fùqīn",
+    "en": "father"
+  },
+  {
+    "id": 125,
+    "h": "复印",
+    "p": "fùyìn",
+    "en": "To copy"
+  },
+  {
+    "id": 126,
+    "h": "复杂",
+    "p": "fùzá",
+    "en": "complex"
+  },
+  {
+    "id": 127,
+    "h": "负责",
+    "p": "fùzé",
+    "en": "Be responsible for"
+  },
+  {
+    "id": 128,
+    "h": "改变",
+    "p": "gǎibiàn",
+    "en": "change"
+  },
+  {
+    "id": 129,
+    "h": "干杯",
+    "p": "gānbēi",
+    "en": "Cheers!"
+  },
+  {
+    "id": 130,
+    "h": "赶",
+    "p": "gǎn",
+    "en": "catch up with"
+  },
+  {
+    "id": 131,
+    "h": "敢",
+    "p": "gǎn",
+    "en": "dare"
+  },
+  {
+    "id": 132,
+    "h": "感动",
+    "p": "gǎndòng",
+    "en": "Be moved"
+  },
+  {
+    "id": 133,
+    "h": "感觉",
+    "p": "gǎnjué",
+    "en": "feel"
+  },
+  {
+    "id": 134,
+    "h": "感情",
+    "p": "gǎnqíng",
+    "en": "feeling"
+  },
+  {
+    "id": 135,
+    "h": "感谢",
+    "p": "gǎnxiè",
+    "en": "Thank"
+  },
+  {
+    "id": 136,
+    "h": "干",
+    "p": "gān",
+    "en": "dry"
+  },
+  {
+    "id": 137,
+    "h": "刚",
+    "p": "gāng",
+    "en": "just"
+  },
+  {
+    "id": 138,
+    "h": "高速公路",
+    "p": "gāosùgōnglù",
+    "en": "Expressway"
+  },
+  {
+    "id": 139,
+    "h": "胳膊",
+    "p": "gēbo",
+    "en": "Arm"
+  },
+  {
+    "id": 140,
+    "h": "各",
+    "p": "gè",
+    "en": "various"
+  },
+  {
+    "id": 141,
+    "h": "公里",
+    "p": "gōnglǐ",
+    "en": "kilometre"
+  },
+  {
+    "id": 142,
+    "h": "工资",
+    "p": "gōngzī",
+    "en": "wages"
+  },
+  {
+    "id": 143,
+    "h": "功夫",
+    "p": "gōngfu",
+    "en": "Kungfu"
+  },
+  {
+    "id": 144,
+    "h": "共同",
+    "p": "gòngtóng",
+    "en": "common"
+  },
+  {
+    "id": 145,
+    "h": "够",
+    "p": "gòu",
+    "en": "enough"
+  },
+  {
+    "id": 146,
+    "h": "购物",
+    "p": "gòuwù",
+    "en": "Shopping"
+  },
+  {
+    "id": 147,
+    "h": "估计",
+    "p": "gūjì",
+    "en": "estimate"
+  },
+  {
+    "id": 148,
+    "h": "鼓励",
+    "p": "gǔlì",
+    "en": "encourage"
+  },
+  {
+    "id": 149,
+    "h": "顾客",
+    "p": "gùkè",
+    "en": "customer"
+  },
+  {
+    "id": 150,
+    "h": "故意",
+    "p": "gùyì",
+    "en": "deliberately"
+  },
+  {
+    "id": 151,
+    "h": "挂",
+    "p": "guà",
+    "en": "hang"
+  },
+  {
+    "id": 152,
+    "h": "关键",
+    "p": "guānjiàn",
+    "en": "key"
+  },
+  {
+    "id": 153,
+    "h": "观众",
+    "p": "guānzhòng",
+    "en": "Audience"
+  },
+  {
+    "id": 154,
+    "h": "管理",
+    "p": "guǎnlǐ",
+    "en": "Administration"
+  },
+  {
+    "id": 155,
+    "h": "光",
+    "p": "guāng",
+    "en": "light"
+  },
+  {
+    "id": 156,
+    "h": "广播",
+    "p": "guǎngbō",
+    "en": "Radio broadcast"
+  },
+  {
+    "id": 157,
+    "h": "广告",
+    "p": "guǎnggào",
+    "en": "Advertisement"
+  },
+  {
+    "id": 158,
+    "h": "逛",
+    "p": "guàng",
+    "en": "Stroll"
+  },
+  {
+    "id": 159,
+    "h": "规定",
+    "p": "guīdìng",
+    "en": "Regulations"
+  },
+  {
+    "id": 160,
+    "h": "国际",
+    "p": "guójì",
+    "en": "international"
+  },
+  {
+    "id": 161,
+    "h": "国籍",
+    "p": "guójí",
+    "en": "nationality"
+  },
+  {
+    "id": 162,
+    "h": "果汁",
+    "p": "guǒzhī",
+    "en": "fruit juice"
+  },
+  {
+    "id": 163,
+    "h": "过程",
+    "p": "guòchéng",
+    "en": "process"
+  },
+  {
+    "id": 164,
+    "h": "海洋",
+    "p": "hǎiyáng",
+    "en": "ocean"
+  },
+  {
+    "id": 165,
+    "h": "害羞",
+    "p": "hàixiū",
+    "en": "Shy"
+  },
+  {
+    "id": 166,
+    "h": "寒假",
+    "p": "hánjià",
+    "en": "The winter vacation"
+  },
+  {
+    "id": 167,
+    "h": "汗",
+    "p": "hàn",
+    "en": "sweat"
+  },
+  {
+    "id": 168,
+    "h": "航班",
+    "p": "hángbān",
+    "en": "flight"
+  },
+  {
+    "id": 169,
+    "h": "好处",
+    "p": "hǎochù",
+    "en": "benefit"
+  },
+  {
+    "id": 170,
+    "h": "好像",
+    "p": "hǎoxiàng",
+    "en": "Be like, seem"
+  },
+  {
+    "id": 171,
+    "h": "号码",
+    "p": "hàomǎ",
+    "en": "number"
+  },
+  {
+    "id": 172,
+    "h": "合格",
+    "p": "hégé",
+    "en": "qualified"
+  },
+  {
+    "id": 173,
+    "h": "合适",
+    "p": "héshì",
+    "en": "appropriate"
+  },
+  {
+    "id": 174,
+    "h": "盒子",
+    "p": "hézi",
+    "en": "Box"
+  },
+  {
+    "id": 175,
+    "h": "厚",
+    "p": "hòu",
+    "en": "thick"
+  },
+  {
+    "id": 176,
+    "h": "后悔",
+    "p": "hòuhuǐ",
+    "en": "regret"
+  },
+  {
+    "id": 177,
+    "h": "护士",
+    "p": "hùshi",
+    "en": "Nurse"
+  },
+  {
+    "id": 178,
+    "h": "互联网",
+    "p": "hùliánwǎng",
+    "en": "Internet"
+  },
+  {
+    "id": 179,
+    "h": "互相",
+    "p": "hùxiāng",
+    "en": "each other"
+  },
+  {
+    "id": 180,
+    "h": "怀疑",
+    "p": "huáiyí",
+    "en": "doubt"
+  },
+  {
+    "id": 181,
+    "h": "回忆",
+    "p": "huíyì",
+    "en": "Memory"
+  },
+  {
+    "id": 182,
+    "h": "活动",
+    "p": "huódòng",
+    "en": "activity"
+  },
+  {
+    "id": 183,
+    "h": "活泼",
+    "p": "huópō",
+    "en": "lively"
+  },
+  {
+    "id": 184,
+    "h": "火",
+    "p": "huǒ",
+    "en": "fire"
+  },
+  {
+    "id": 185,
+    "h": "获得",
+    "p": "huòdé",
+    "en": "Get"
+  },
+  {
+    "id": 186,
+    "h": "基础",
+    "p": "jīchǔ",
+    "en": "Basics"
+  },
+  {
+    "id": 187,
+    "h": "激动",
+    "p": "jīdòng",
+    "en": "Excited"
+  },
+  {
+    "id": 188,
+    "h": "积极",
+    "p": "jījí",
+    "en": "positive"
+  },
+  {
+    "id": 189,
+    "h": "积累",
+    "p": "jīlěi",
+    "en": "accumulation"
+  },
+  {
+    "id": 190,
+    "h": "及时",
+    "p": "jíshí",
+    "en": "timely"
+  },
+  {
+    "id": 191,
+    "h": "即使",
+    "p": "jíshǐ",
+    "en": "even if"
+  },
+  {
+    "id": 192,
+    "h": "寄",
+    "p": "jì",
+    "en": "send"
+  },
+  {
+    "id": 193,
+    "h": "记者",
+    "p": "jìzhě",
+    "en": "Reporter"
+  },
+  {
+    "id": 194,
+    "h": "计划",
+    "p": "jìhuà",
+    "en": "plan"
+  },
+  {
+    "id": 195,
+    "h": "既然",
+    "p": "jìrán",
+    "en": "although"
+  },
+  {
+    "id": 196,
+    "h": "技术",
+    "p": "jìshù",
+    "en": "technology"
+  },
+  {
+    "id": 197,
+    "h": "继续",
+    "p": "jìxù",
+    "en": "Continue"
+  },
+  {
+    "id": 198,
+    "h": "家具",
+    "p": "jiājù",
+    "en": "furniture"
+  },
+  {
+    "id": 199,
+    "h": "加班",
+    "p": "jiābān",
+    "en": "overtime work"
+  },
+  {
+    "id": 200,
+    "h": "加油站",
+    "p": "jiāyóuzhàn",
+    "en": "Gas station"
+  },
+  {
+    "id": 201,
+    "h": "假",
+    "p": "jiǎ",
+    "en": "false"
+  },
+  {
+    "id": 202,
+    "h": "价格",
+    "p": "jiàgé",
+    "en": "Price"
+  },
+  {
+    "id": 203,
+    "h": "坚持",
+    "p": "jiānchí",
+    "en": "Insist"
+  },
+  {
+    "id": 204,
+    "h": "减肥",
+    "p": "jiǎnféi",
+    "en": "Reduce weight"
+  },
+  {
+    "id": 205,
+    "h": "减少",
+    "p": "jiǎnshǎo",
+    "en": "reduce"
+  },
+  {
+    "id": 206,
+    "h": "建议",
+    "p": "jiànyì",
+    "en": "proposal"
+  },
+  {
+    "id": 207,
+    "h": "将来",
+    "p": "jiānglái",
+    "en": "future"
+  },
+  {
+    "id": 208,
+    "h": "奖金",
+    "p": "jiǎngjīn",
+    "en": "bonus"
+  },
+  {
+    "id": 209,
+    "h": "降低",
+    "p": "jiàngdī",
+    "en": "reduce"
+  },
+  {
+    "id": 210,
+    "h": "降落",
+    "p": "jiàngluò",
+    "en": "land"
+  },
+  {
+    "id": 211,
+    "h": "交",
+    "p": "jiāo",
+    "en": "hand over"
+  },
+  {
+    "id": 212,
+    "h": "交流",
+    "p": "jiāoliú",
+    "en": "Communication"
+  },
+  {
+    "id": 213,
+    "h": "交通",
+    "p": "jiāotōng",
+    "en": "traffic"
+  },
+  {
+    "id": 214,
+    "h": "郊区",
+    "p": "jiāoqū",
+    "en": "Suburb"
+  },
+  {
+    "id": 215,
+    "h": "骄傲",
+    "p": "jiāo'ào",
+    "en": "Proud"
+  },
+  {
+    "id": 216,
+    "h": "饺子",
+    "p": "jiǎozi",
+    "en": "Dumplings"
+  },
+  {
+    "id": 217,
+    "h": "教授",
+    "p": "jiàoshòu",
+    "en": "professor"
+  },
+  {
+    "id": 218,
+    "h": "教育",
+    "p": "jiàoyù",
+    "en": "education"
+  },
+  {
+    "id": 219,
+    "h": "接受",
+    "p": "jiēshòu",
+    "en": "accept"
+  },
+  {
+    "id": 220,
+    "h": "接着",
+    "p": "jiēzhe",
+    "en": "Next"
+  },
+  {
+    "id": 221,
+    "h": "结果",
+    "p": "jiéguǒ",
+    "en": "Result"
+  },
+  {
+    "id": 222,
+    "h": "节",
+    "p": "jié",
+    "en": "section, festival"
+  },
+  {
+    "id": 223,
+    "h": "节约",
+    "p": "jiéyuē",
+    "en": "save"
+  },
+  {
+    "id": 224,
+    "h": "解释",
+    "p": "jiěshì",
+    "en": "explain"
+  },
+  {
+    "id": 225,
+    "h": "尽管",
+    "p": "jǐnguǎn",
+    "en": "although"
+  },
+  {
+    "id": 226,
+    "h": "紧张",
+    "p": "jǐnzhāng",
+    "en": "Nervous"
+  },
+  {
+    "id": 227,
+    "h": "进行",
+    "p": "jìnxíng",
+    "en": "in process of"
+  },
+  {
+    "id": 228,
+    "h": "禁止",
+    "p": "jìnzhǐ",
+    "en": "prohibit"
+  },
+  {
+    "id": 229,
+    "h": "精彩",
+    "p": "jīngcǎi",
+    "en": "Marvellous"
+  },
+  {
+    "id": 230,
+    "h": "经济",
+    "p": "jīngjì",
+    "en": "Economics"
+  },
+  {
+    "id": 231,
+    "h": "经历",
+    "p": "jīnglì",
+    "en": "experience"
+  },
+  {
+    "id": 232,
+    "h": "经验",
+    "p": "jīngyàn",
+    "en": "experience"
+  },
+  {
+    "id": 233,
+    "h": "京剧",
+    "p": "jīngjù",
+    "en": "Beijing opera"
+  },
+  {
+    "id": 234,
+    "h": "警察",
+    "p": "jǐngchá",
+    "en": "Policeman"
+  },
+  {
+    "id": 235,
+    "h": "景色",
+    "p": "jǐngsè",
+    "en": "scenery"
+  },
+  {
+    "id": 236,
+    "h": "竟然",
+    "p": "jìngrán",
+    "en": "Unexpectedly"
+  },
+  {
+    "id": 237,
+    "h": "竞争",
+    "p": "jìngzhēng",
+    "en": "compete"
+  },
+  {
+    "id": 238,
+    "h": "镜子",
+    "p": "jìngzi",
+    "en": "Mirror"
+  },
+  {
+    "id": 239,
+    "h": "究竟",
+    "p": "jiūjìng",
+    "en": "exactly"
+  },
+  {
+    "id": 240,
+    "h": "举",
+    "p": "jǔ",
+    "en": "lift"
+  },
+  {
+    "id": 241,
+    "h": "举办",
+    "p": "jǔbàn",
+    "en": "hold"
+  },
+  {
+    "id": 242,
+    "h": "举行",
+    "p": "jǔxíng",
+    "en": "hold"
+  },
+  {
+    "id": 243,
+    "h": "拒绝",
+    "p": "jùjué",
+    "en": "refuse"
+  },
+  {
+    "id": 244,
+    "h": "距离",
+    "p": "jùlí",
+    "en": "distance"
+  },
+  {
+    "id": 245,
+    "h": "聚会",
+    "p": "jùhuì",
+    "en": "Party"
+  },
+  {
+    "id": 246,
+    "h": "开玩笑",
+    "p": "kāiwánxiào",
+    "en": "Make fun of"
+  },
+  {
+    "id": 247,
+    "h": "开心",
+    "p": "kāixīn",
+    "en": "Happy"
+  },
+  {
+    "id": 248,
+    "h": "看法",
+    "p": "kànfǎ",
+    "en": "view"
+  },
+  {
+    "id": 249,
+    "h": "考虑",
+    "p": "kǎolǜ",
+    "en": "Consider"
+  },
+  {
+    "id": 250,
+    "h": "烤鸭",
+    "p": "kǎoyā",
+    "en": "Roasted Duck"
+  },
+  {
+    "id": 251,
+    "h": "棵",
+    "p": "kē",
+    "en": "Tree (measure word)"
+  },
+  {
+    "id": 252,
+    "h": "科学",
+    "p": "kēxué",
+    "en": "science"
+  },
+  {
+    "id": 253,
+    "h": "咳嗽",
+    "p": "késou",
+    "en": "cough"
+  },
+  {
+    "id": 254,
+    "h": "可怜",
+    "p": "kělián",
+    "en": "Poor"
+  },
+  {
+    "id": 255,
+    "h": "可是",
+    "p": "kěshì",
+    "en": "however"
+  },
+  {
+    "id": 256,
+    "h": "可惜",
+    "p": "kěxī",
+    "en": "unfortunately"
+  },
+  {
+    "id": 257,
+    "h": "客厅",
+    "p": "kètīng",
+    "en": "A living room"
+  },
+  {
+    "id": 258,
+    "h": "肯定",
+    "p": "kěndìng",
+    "en": "sure"
+  },
+  {
+    "id": 259,
+    "h": "空",
+    "p": "kōng",
+    "en": "empty"
+  },
+  {
+    "id": 260,
+    "h": "空气",
+    "p": "kōngqì",
+    "en": "air"
+  },
+  {
+    "id": 261,
+    "h": "恐怕",
+    "p": "kǒngpà",
+    "en": "I'm afraid"
+  },
+  {
+    "id": 262,
+    "h": "苦",
+    "p": "kǔ",
+    "en": "bitter"
+  },
+  {
+    "id": 263,
+    "h": "矿泉水",
+    "p": "kuàngquánshuǐ",
+    "en": "Mineral water"
+  },
+  {
+    "id": 264,
+    "h": "困",
+    "p": "kùn",
+    "en": "sleepy"
+  },
+  {
+    "id": 265,
+    "h": "困难",
+    "p": "kùnnan",
+    "en": "difficulty"
+  },
+  {
+    "id": 266,
+    "h": "拉",
+    "p": "lā",
+    "en": "pull"
+  },
+  {
+    "id": 267,
+    "h": "垃圾桶",
+    "p": "lājītǒng",
+    "en": "Trash"
+  },
+  {
+    "id": 268,
+    "h": "辣",
+    "p": "là",
+    "en": "spicy"
+  },
+  {
+    "id": 269,
+    "h": "来自",
+    "p": "láizì",
+    "en": "Come from"
+  },
+  {
+    "id": 270,
+    "h": "来不及",
+    "p": "láibují",
+    "en": "There's not enough time"
+  },
+  {
+    "id": 271,
+    "h": "来得及",
+    "p": "láidejí",
+    "en": "In time"
+  },
+  {
+    "id": 272,
+    "h": "懒",
+    "p": "lǎn",
+    "en": "lazy"
+  },
+  {
+    "id": 273,
+    "h": "浪费",
+    "p": "làngfèi",
+    "en": "Waste"
+  },
+  {
+    "id": 274,
+    "h": "浪漫",
+    "p": "làngmàn",
+    "en": "romantic"
+  },
+  {
+    "id": 275,
+    "h": "老虎",
+    "p": "lǎohǔ",
+    "en": "Tiger"
+  },
+  {
+    "id": 276,
+    "h": "冷静",
+    "p": "lěngjìng",
+    "en": "calm down"
+  },
+  {
+    "id": 277,
+    "h": "理发",
+    "p": "lǐfà",
+    "en": "Haircut"
+  },
+  {
+    "id": 278,
+    "h": "理解",
+    "p": "lǐjiě",
+    "en": "Understand"
+  },
+  {
+    "id": 279,
+    "h": "理想",
+    "p": "lǐxiǎng",
+    "en": "ideal"
+  },
+  {
+    "id": 280,
+    "h": "礼貌",
+    "p": "lǐmào",
+    "en": "politeness"
+  },
+  {
+    "id": 281,
+    "h": "礼拜天",
+    "p": "lǐbàitiān",
+    "en": "Sunday"
+  },
+  {
+    "id": 282,
+    "h": "厉害",
+    "p": "lìhai",
+    "en": "Fierce"
+  },
+  {
+    "id": 283,
+    "h": "力气",
+    "p": "lìqi",
+    "en": "Strength"
+  },
+  {
+    "id": 284,
+    "h": "例如",
+    "p": "lìrú",
+    "en": "for example"
+  },
+  {
+    "id": 285,
+    "h": "俩",
+    "p": "liǎ",
+    "en": "Two"
+  },
+  {
+    "id": 286,
+    "h": "连",
+    "p": "lián",
+    "en": "even"
+  },
+  {
+    "id": 287,
+    "h": "联系",
+    "p": "liánxì",
+    "en": "contact"
+  },
+  {
+    "id": 288,
+    "h": "凉快",
+    "p": "liángkuai",
+    "en": "Pleasantly cool"
+  },
+  {
+    "id": 289,
+    "h": "零钱",
+    "p": "língqián",
+    "en": "Small change"
+  },
+  {
+    "id": 290,
+    "h": "另外",
+    "p": "lìngwài",
+    "en": "in addition"
+  },
+  {
+    "id": 291,
+    "h": "留",
+    "p": "liú",
+    "en": "stay"
+  },
+  {
+    "id": 292,
+    "h": "流利",
+    "p": "liúlì",
+    "en": "fluent"
+  },
+  {
+    "id": 293,
+    "h": "流行",
+    "p": "liúxíng",
+    "en": "Popular"
+  },
+  {
+    "id": 294,
+    "h": "乱",
+    "p": "luàn",
+    "en": "chaos"
+  },
+  {
+    "id": 295,
+    "h": "旅行",
+    "p": "lǚxíng",
+    "en": "travel"
+  },
+  {
+    "id": 296,
+    "h": "律师",
+    "p": "lǜshī",
+    "en": "Lawyer"
+  },
+  {
+    "id": 297,
+    "h": "麻烦",
+    "p": "máfan",
+    "en": "trouble"
+  },
+  {
+    "id": 298,
+    "h": "马虎",
+    "p": "mǎhu",
+    "en": "Careless"
+  },
+  {
+    "id": 299,
+    "h": "满",
+    "p": "mǎn",
+    "en": "full"
+  },
+  {
+    "id": 300,
+    "h": "毛",
+    "p": "máo",
+    "en": "hair"
+  },
+  {
+    "id": 301,
+    "h": "毛巾",
+    "p": "máojīn",
+    "en": "Towel"
+  },
+  {
+    "id": 302,
+    "h": "美丽",
+    "p": "měilì",
+    "en": "beautiful"
+  },
+  {
+    "id": 303,
+    "h": "梦",
+    "p": "mèng",
+    "en": "dream"
+  },
+  {
+    "id": 304,
+    "h": "迷路",
+    "p": "mílù",
+    "en": "Get lost"
+  },
+  {
+    "id": 305,
+    "h": "密码",
+    "p": "mìmǎ",
+    "en": "Password"
+  },
+  {
+    "id": 306,
+    "h": "免费",
+    "p": "miǎnfèi",
+    "en": "Free of charge"
+  },
+  {
+    "id": 307,
+    "h": "秒",
+    "p": "miǎo",
+    "en": "second"
+  },
+  {
+    "id": 308,
+    "h": "民族",
+    "p": "mínzú",
+    "en": "Nation"
+  },
+  {
+    "id": 309,
+    "h": "母亲",
+    "p": "mǔqīn",
+    "en": "mother"
+  },
+  {
+    "id": 310,
+    "h": "目的",
+    "p": "mùdì",
+    "en": "objective"
+  },
+  {
+    "id": 311,
+    "h": "耐心",
+    "p": "nàixīn",
+    "en": "patience"
+  },
+  {
+    "id": 312,
+    "h": "难道",
+    "p": "nándào",
+    "en": "could it be said that …"
+  },
+  {
+    "id": 313,
+    "h": "难受",
+    "p": "nánshòu",
+    "en": "Uncomfortable"
+  },
+  {
+    "id": 314,
+    "h": "内",
+    "p": "nèi",
+    "en": "within"
+  },
+  {
+    "id": 315,
+    "h": "内容",
+    "p": "nèiróng",
+    "en": "content"
+  },
+  {
+    "id": 316,
+    "h": "能力",
+    "p": "nénglì",
+    "en": "ability"
+  },
+  {
+    "id": 317,
+    "h": "年龄",
+    "p": "niánlíng",
+    "en": "Age"
+  },
+  {
+    "id": 318,
+    "h": "弄",
+    "p": "nòng",
+    "en": "get, make"
+  },
+  {
+    "id": 319,
+    "h": "暖和",
+    "p": "nuǎnhuo",
+    "en": "warm"
+  },
+  {
+    "id": 320,
+    "h": "偶尔",
+    "p": "ǒu'ěr",
+    "en": "occasionally"
+  },
+  {
+    "id": 321,
+    "h": "排队",
+    "p": "páiduì",
+    "en": "queue; stand in a line"
+  },
+  {
+    "id": 322,
+    "h": "排列",
+    "p": "páiliè",
+    "en": "array"
+  },
+  {
+    "id": 323,
+    "h": "判断",
+    "p": "pànduàn",
+    "en": "judge"
+  },
+  {
+    "id": 324,
+    "h": "陪",
+    "p": "péi",
+    "en": "accompany"
+  },
+  {
+    "id": 325,
+    "h": "批评",
+    "p": "pīpíng",
+    "en": "criticism"
+  },
+  {
+    "id": 326,
+    "h": "皮肤",
+    "p": "pífū",
+    "en": "skin"
+  },
+  {
+    "id": 327,
+    "h": "脾气",
+    "p": "píqi",
+    "en": "Bad temper"
+  },
+  {
+    "id": 328,
+    "h": "篇",
+    "p": "piān",
+    "en": "piece"
+  },
+  {
+    "id": 329,
+    "h": "骗",
+    "p": "piàn",
+    "en": "fool"
+  },
+  {
+    "id": 330,
+    "h": "乒乓球",
+    "p": "pīngpāngqiú",
+    "en": "Table Tennis"
+  },
+  {
+    "id": 331,
+    "h": "平时",
+    "p": "píngshí",
+    "en": "peacetime"
+  },
+  {
+    "id": 332,
+    "h": "破",
+    "p": "pò",
+    "en": "broken"
+  },
+  {
+    "id": 333,
+    "h": "葡萄",
+    "p": "pútao",
+    "en": "Grape"
+  },
+  {
+    "id": 334,
+    "h": "普遍",
+    "p": "pǔbiàn",
+    "en": "universal"
+  },
+  {
+    "id": 335,
+    "h": "普通话",
+    "p": "pǔtōnghuà",
+    "en": "Mandarin"
+  },
+  {
+    "id": 336,
+    "h": "其次",
+    "p": "qícì",
+    "en": "Secondly"
+  },
+  {
+    "id": 337,
+    "h": "其中",
+    "p": "qízhōng",
+    "en": "among"
+  },
+  {
+    "id": 338,
+    "h": "气候",
+    "p": "qìhòu",
+    "en": "climate"
+  },
+  {
+    "id": 339,
+    "h": "千万",
+    "p": "qiānwàn",
+    "en": "Must"
+  },
+  {
+    "id": 340,
+    "h": "签证",
+    "p": "qiānzhèng",
+    "en": "visa"
+  },
+  {
+    "id": 341,
+    "h": "敲",
+    "p": "qiāo",
+    "en": "knock"
+  },
+  {
+    "id": 342,
+    "h": "桥",
+    "p": "qiáo",
+    "en": "Bridge"
+  },
+  {
+    "id": 343,
+    "h": "巧克力",
+    "p": "qiǎokèlì",
+    "en": "Chocolates"
+  },
+  {
+    "id": 344,
+    "h": "亲戚",
+    "p": "qīnqi",
+    "en": "Relative"
+  },
+  {
+    "id": 345,
+    "h": "轻",
+    "p": "qīng",
+    "en": "light"
+  },
+  {
+    "id": 346,
+    "h": "轻松",
+    "p": "qīngsōng",
+    "en": "Relaxed"
+  },
+  {
+    "id": 347,
+    "h": "情况",
+    "p": "qíngkuàng",
+    "en": "Situation"
+  },
+  {
+    "id": 348,
+    "h": "穷",
+    "p": "qióng",
+    "en": "poor"
+  },
+  {
+    "id": 349,
+    "h": "区别",
+    "p": "qūbié",
+    "en": "Difference"
+  },
+  {
+    "id": 350,
+    "h": "取",
+    "p": "qǔ",
+    "en": "take"
+  },
+  {
+    "id": 351,
+    "h": "全部",
+    "p": "quánbù",
+    "en": "whole"
+  },
+  {
+    "id": 352,
+    "h": "缺点",
+    "p": "quēdiǎn",
+    "en": "shortcoming"
+  },
+  {
+    "id": 353,
+    "h": "缺少",
+    "p": "quēshǎo",
+    "en": "Lack"
+  },
+  {
+    "id": 354,
+    "h": "却",
+    "p": "què",
+    "en": "but"
+  },
+  {
+    "id": 355,
+    "h": "确实",
+    "p": "quèshí",
+    "en": "Exactly"
+  },
+  {
+    "id": 356,
+    "h": "然而",
+    "p": "rán'ér",
+    "en": "however"
+  },
+  {
+    "id": 357,
+    "h": "热闹",
+    "p": "rènao",
+    "en": "lively"
+  },
+  {
+    "id": 358,
+    "h": "任何",
+    "p": "rènhé",
+    "en": "whatever, any"
+  },
+  {
+    "id": 359,
+    "h": "任务",
+    "p": "rènwu",
+    "en": "task"
+  },
+  {
+    "id": 360,
+    "h": "扔",
+    "p": "rēng",
+    "en": "throw"
+  },
+  {
+    "id": 361,
+    "h": "仍然",
+    "p": "réngrán",
+    "en": "still"
+  },
+  {
+    "id": 362,
+    "h": "日记",
+    "p": "rìjì",
+    "en": "diary"
+  },
+  {
+    "id": 363,
+    "h": "入口",
+    "p": "rùkǒu",
+    "en": "Entrance"
+  },
+  {
+    "id": 364,
+    "h": "散步",
+    "p": "sànbù",
+    "en": "Take a walk"
+  },
+  {
+    "id": 365,
+    "h": "森林",
+    "p": "sēnlín",
+    "en": "Forest"
+  },
+  {
+    "id": 366,
+    "h": "沙发",
+    "p": "shāfā",
+    "en": "Sofa"
+  },
+  {
+    "id": 367,
+    "h": "商量",
+    "p": "shāngliang",
+    "en": "discuss"
+  },
+  {
+    "id": 368,
+    "h": "伤心",
+    "p": "shāngxīn",
+    "en": "Sad"
+  },
+  {
+    "id": 369,
+    "h": "稍微",
+    "p": "shāowēi",
+    "en": "slightly"
+  },
+  {
+    "id": 370,
+    "h": "勺子",
+    "p": "sháozi",
+    "en": "Spoon"
+  },
+  {
+    "id": 371,
+    "h": "社会",
+    "p": "shèhuì",
+    "en": "Sociology"
+  },
+  {
+    "id": 372,
+    "h": "深",
+    "p": "shēn",
+    "en": "deep"
+  },
+  {
+    "id": 373,
+    "h": "申请",
+    "p": "shēnqǐng",
+    "en": "Apply"
+  },
+  {
+    "id": 374,
+    "h": "甚至",
+    "p": "shènzhì",
+    "en": "Even to the extent that"
+  },
+  {
+    "id": 375,
+    "h": "生活",
+    "p": "shēnghuó",
+    "en": "Life"
+  },
+  {
+    "id": 376,
+    "h": "生命",
+    "p": "shēngmìng",
+    "en": "life"
+  },
+  {
+    "id": 377,
+    "h": "生意",
+    "p": "shēngyi",
+    "en": "business"
+  },
+  {
+    "id": 378,
+    "h": "省",
+    "p": "shěng",
+    "en": "province"
+  },
+  {
+    "id": 379,
+    "h": "剩",
+    "p": "shèng",
+    "en": "Left"
+  },
+  {
+    "id": 380,
+    "h": "失败",
+    "p": "shībài",
+    "en": "fail"
+  },
+  {
+    "id": 381,
+    "h": "失望",
+    "p": "shīwàng",
+    "en": "Disappointment"
+  },
+  {
+    "id": 382,
+    "h": "师傅",
+    "p": "shīfu",
+    "en": "Master worker"
+  },
+  {
+    "id": 383,
+    "h": "十分",
+    "p": "shífēn",
+    "en": "very"
+  },
+  {
+    "id": 384,
+    "h": "实际",
+    "p": "shíjì",
+    "en": "Actual"
+  },
+  {
+    "id": 385,
+    "h": "实在",
+    "p": "shízài",
+    "en": "really"
+  },
+  {
+    "id": 386,
+    "h": "使",
+    "p": "shǐ",
+    "en": "make"
+  },
+  {
+    "id": 387,
+    "h": "使用",
+    "p": "shǐyòng",
+    "en": "Use"
+  },
+  {
+    "id": 388,
+    "h": "是否",
+    "p": "shìfǒu",
+    "en": "Whether"
+  },
+  {
+    "id": 389,
+    "h": "适合",
+    "p": "shìhé",
+    "en": "Fit"
+  },
+  {
+    "id": 390,
+    "h": "适应",
+    "p": "shìyìng",
+    "en": "Adapt"
+  },
+  {
+    "id": 391,
+    "h": "世纪",
+    "p": "shìjì",
+    "en": "century"
+  },
+  {
+    "id": 392,
+    "h": "收",
+    "p": "shōu",
+    "en": "collect"
+  },
+  {
+    "id": 393,
+    "h": "收入",
+    "p": "shōurù",
+    "en": "income"
+  },
+  {
+    "id": 394,
+    "h": "收拾",
+    "p": "shōushi",
+    "en": "Tidy"
+  },
+  {
+    "id": 395,
+    "h": "首都",
+    "p": "shǒudū",
+    "en": "capital"
+  },
+  {
+    "id": 396,
+    "h": "首先",
+    "p": "shǒuxiān",
+    "en": "First"
+  },
+  {
+    "id": 397,
+    "h": "受不了",
+    "p": "shòubuliǎo",
+    "en": "Cannot bear sth"
+  },
+  {
+    "id": 398,
+    "h": "受到",
+    "p": "shòudào",
+    "en": "Suffer"
+  },
+  {
+    "id": 399,
+    "h": "售货员",
+    "p": "shòuhuòyuán",
+    "en": "Salesperson"
+  },
+  {
+    "id": 400,
+    "h": "输",
+    "p": "shū",
+    "en": "lose, fail"
+  },
+  {
+    "id": 401,
+    "h": "熟悉",
+    "p": "shúxī",
+    "en": "be familiar with"
+  },
+  {
+    "id": 402,
+    "h": "数量",
+    "p": "shùliàng",
+    "en": "Number"
+  },
+  {
+    "id": 403,
+    "h": "数字",
+    "p": "shùzì",
+    "en": "number"
+  },
+  {
+    "id": 404,
+    "h": "帅",
+    "p": "shuài",
+    "en": "Handsome"
+  },
+  {
+    "id": 405,
+    "h": "顺便",
+    "p": "shùnbiàn",
+    "en": "Incidentally"
+  },
+  {
+    "id": 406,
+    "h": "顺利",
+    "p": "shùnlì",
+    "en": "smoothly"
+  },
+  {
+    "id": 407,
+    "h": "顺序",
+    "p": "shùnxù",
+    "en": "order"
+  },
+  {
+    "id": 408,
+    "h": "说明",
+    "p": "shuōmíng",
+    "en": "Explain"
+  },
+  {
+    "id": 409,
+    "h": "硕士",
+    "p": "shuòshì",
+    "en": "master"
+  },
+  {
+    "id": 410,
+    "h": "死",
+    "p": "sǐ",
+    "en": "die"
+  },
+  {
+    "id": 411,
+    "h": "速度",
+    "p": "sùdù",
+    "en": "speed"
+  },
+  {
+    "id": 412,
+    "h": "塑料袋",
+    "p": "sùliàodài",
+    "en": "Plastic bag"
+  },
+  {
+    "id": 413,
+    "h": "酸",
+    "p": "suān",
+    "en": "acid"
+  },
+  {
+    "id": 414,
+    "h": "随便",
+    "p": "suíbiàn",
+    "en": "casual"
+  },
+  {
+    "id": 415,
+    "h": "随着",
+    "p": "suízhe",
+    "en": "along with"
+  },
+  {
+    "id": 416,
+    "h": "孙子",
+    "p": "sūnzi",
+    "en": "Grandson"
+  },
+  {
+    "id": 417,
+    "h": "所有",
+    "p": "suǒyǒu",
+    "en": "All"
+  },
+  {
+    "id": 418,
+    "h": "台",
+    "p": "tái",
+    "en": "platform"
+  },
+  {
+    "id": 419,
+    "h": "抬",
+    "p": "tái",
+    "en": "Lift"
+  },
+  {
+    "id": 420,
+    "h": "态度",
+    "p": "tàidu",
+    "en": "attitude"
+  },
+  {
+    "id": 421,
+    "h": "谈",
+    "p": "tán",
+    "en": "talk"
+  },
+  {
+    "id": 422,
+    "h": "弹钢琴",
+    "p": "tángāngqín",
+    "en": "Play the piano"
+  },
+  {
+    "id": 423,
+    "h": "汤",
+    "p": "tāng",
+    "en": "soup"
+  },
+  {
+    "id": 424,
+    "h": "糖",
+    "p": "táng",
+    "en": "sugar"
+  },
+  {
+    "id": 425,
+    "h": "躺",
+    "p": "tǎng",
+    "en": "lie"
+  },
+  {
+    "id": 426,
+    "h": "趟",
+    "p": "tàng",
+    "en": "Trip"
+  },
+  {
+    "id": 427,
+    "h": "讨论",
+    "p": "tǎolùn",
+    "en": "discuss"
+  },
+  {
+    "id": 428,
+    "h": "讨厌",
+    "p": "tǎoyàn",
+    "en": "Hate"
+  },
+  {
+    "id": 429,
+    "h": "特点",
+    "p": "tèdiǎn",
+    "en": "Characteristic"
+  },
+  {
+    "id": 430,
+    "h": "提",
+    "p": "tí",
+    "en": "carry"
+  },
+  {
+    "id": 431,
+    "h": "提供",
+    "p": "tígōng",
+    "en": "provide"
+  },
+  {
+    "id": 432,
+    "h": "提前",
+    "p": "tíqián",
+    "en": "in advance"
+  },
+  {
+    "id": 433,
+    "h": "提醒",
+    "p": "tíxǐng",
+    "en": "remind"
+  },
+  {
+    "id": 434,
+    "h": "填空",
+    "p": "tiánkòng",
+    "en": "Fill in the blanks"
+  },
+  {
+    "id": 435,
+    "h": "条件",
+    "p": "tiáojiàn",
+    "en": "condition"
+  },
+  {
+    "id": 436,
+    "h": "停",
+    "p": "tíng",
+    "en": "Stop"
+  },
+  {
+    "id": 437,
+    "h": "挺",
+    "p": "tǐng",
+    "en": "quite"
+  },
+  {
+    "id": 438,
+    "h": "通过",
+    "p": "tōngguò",
+    "en": "through"
+  },
+  {
+    "id": 439,
+    "h": "通知",
+    "p": "tōngzhī",
+    "en": "notice"
+  },
+  {
+    "id": 440,
+    "h": "同时",
+    "p": "tóngshí",
+    "en": "meanwhile"
+  },
+  {
+    "id": 441,
+    "h": "同情",
+    "p": "tóngqíng",
+    "en": "Sympathy"
+  },
+  {
+    "id": 442,
+    "h": "推",
+    "p": "tuī",
+    "en": "push"
+  },
+  {
+    "id": 443,
+    "h": "推迟",
+    "p": "tuīchí",
+    "en": "delay"
+  },
+  {
+    "id": 444,
+    "h": "脱",
+    "p": "tuō",
+    "en": "take off"
+  },
+  {
+    "id": 445,
+    "h": "袜子",
+    "p": "wàzi",
+    "en": "Socks"
+  },
+  {
+    "id": 446,
+    "h": "完全",
+    "p": "wánquán",
+    "en": "completely"
+  },
+  {
+    "id": 447,
+    "h": "往往",
+    "p": "wǎngwǎng",
+    "en": "Often"
+  },
+  {
+    "id": 448,
+    "h": "网球",
+    "p": "wǎngqiú",
+    "en": "Tennis"
+  },
+  {
+    "id": 449,
+    "h": "网站",
+    "p": "wǎngzhàn",
+    "en": "website"
+  },
+  {
+    "id": 450,
+    "h": "危险",
+    "p": "wēixiǎn",
+    "en": "danger"
+  },
+  {
+    "id": 451,
+    "h": "味道",
+    "p": "wèidào",
+    "en": "taste"
+  },
+  {
+    "id": 452,
+    "h": "卫生间",
+    "p": "wèishēngjiān",
+    "en": "toilet"
+  },
+  {
+    "id": 453,
+    "h": "温度",
+    "p": "wēndù",
+    "en": "temperature"
+  },
+  {
+    "id": 454,
+    "h": "文章",
+    "p": "wénzhāng",
+    "en": "Article"
+  },
+  {
+    "id": 455,
+    "h": "污染",
+    "p": "wūrǎn",
+    "en": "contaminated"
+  },
+  {
+    "id": 456,
+    "h": "无",
+    "p": "wú",
+    "en": "nothing"
+  },
+  {
+    "id": 457,
+    "h": "无聊",
+    "p": "wúliáo",
+    "en": "Boring"
+  },
+  {
+    "id": 458,
+    "h": "无论",
+    "p": "wúlùn",
+    "en": "no matter what"
+  },
+  {
+    "id": 459,
+    "h": "误会",
+    "p": "wùhuì",
+    "en": "Misunderstanding"
+  },
+  {
+    "id": 460,
+    "h": "西红柿",
+    "p": "xīhóngshì",
+    "en": "Tomato"
+  },
+  {
+    "id": 461,
+    "h": "吸引",
+    "p": "xīyǐn",
+    "en": "Attract"
+  },
+  {
+    "id": 462,
+    "h": "咸",
+    "p": "xián",
+    "en": "salty"
+  },
+  {
+    "id": 463,
+    "h": "现金",
+    "p": "xiànjīn",
+    "en": "cash"
+  },
+  {
+    "id": 464,
+    "h": "羡慕",
+    "p": "xiànmù",
+    "en": "Envy"
+  },
+  {
+    "id": 465,
+    "h": "香",
+    "p": "xiāng",
+    "en": "fragrant"
+  },
+  {
+    "id": 466,
+    "h": "相反",
+    "p": "xiāngfǎn",
+    "en": "Contrary"
+  },
+  {
+    "id": 467,
+    "h": "相同",
+    "p": "xiāngtóng",
+    "en": "identical"
+  },
+  {
+    "id": 468,
+    "h": "详细",
+    "p": "xiángxì",
+    "en": "detailed"
+  },
+  {
+    "id": 469,
+    "h": "响",
+    "p": "xiǎng",
+    "en": "ring"
+  },
+  {
+    "id": 470,
+    "h": "橡皮",
+    "p": "xiàngpí",
+    "en": "rubber"
+  },
+  {
+    "id": 471,
+    "h": "消息",
+    "p": "xiāoxi",
+    "en": "message"
+  },
+  {
+    "id": 472,
+    "h": "小吃",
+    "p": "xiǎochī",
+    "en": "snack"
+  },
+  {
+    "id": 473,
+    "h": "小伙子",
+    "p": "xiǎohuǒzi",
+    "en": "Young fellow"
+  },
+  {
+    "id": 474,
+    "h": "小说",
+    "p": "xiǎoshuō",
+    "en": "Novel"
+  },
+  {
+    "id": 475,
+    "h": "笑话",
+    "p": "xiàohua",
+    "en": "joke"
+  },
+  {
+    "id": 476,
+    "h": "效果",
+    "p": "xiàoguǒ",
+    "en": "Effect"
+  },
+  {
+    "id": 477,
+    "h": "辛苦",
+    "p": "xīnkǔ",
+    "en": "hard"
+  },
+  {
+    "id": 478,
+    "h": "心情",
+    "p": "xīnqíng",
+    "en": "mood"
+  },
+  {
+    "id": 479,
+    "h": "信封",
+    "p": "xìnfēng",
+    "en": "envelope"
+  },
+  {
+    "id": 480,
+    "h": "信息",
+    "p": "xìnxī",
+    "en": "information"
+  },
+  {
+    "id": 481,
+    "h": "信心",
+    "p": "xìnxīn",
+    "en": "confidence"
+  },
+  {
+    "id": 482,
+    "h": "兴奋",
+    "p": "xīngfèn",
+    "en": "Excitement"
+  },
+  {
+    "id": 483,
+    "h": "行",
+    "p": "xíng",
+    "en": "That's ok"
+  },
+  {
+    "id": 484,
+    "h": "醒",
+    "p": "xǐng",
+    "en": "wake up"
+  },
+  {
+    "id": 485,
+    "h": "性别",
+    "p": "xìngbié",
+    "en": "Gender"
+  },
+  {
+    "id": 486,
+    "h": "性格",
+    "p": "xìnggé",
+    "en": "character"
+  },
+  {
+    "id": 487,
+    "h": "幸福",
+    "p": "xìngfú",
+    "en": "happiness"
+  },
+  {
+    "id": 488,
+    "h": "修理",
+    "p": "xiūlǐ",
+    "en": "repair"
+  },
+  {
+    "id": 489,
+    "h": "许多",
+    "p": "xǔduō",
+    "en": "many"
+  },
+  {
+    "id": 490,
+    "h": "学期",
+    "p": "xuéqī",
+    "en": "Semester"
+  },
+  {
+    "id": 491,
+    "h": "压力",
+    "p": "yālì",
+    "en": "pressure"
+  },
+  {
+    "id": 492,
+    "h": "牙膏",
+    "p": "yágāo",
+    "en": "toothpaste"
+  },
+  {
+    "id": 493,
+    "h": "亚洲",
+    "p": "yàzhōu",
+    "en": "Asia"
+  },
+  {
+    "id": 494,
+    "h": "呀",
+    "p": "ya",
+    "en": "ah"
+  },
+  {
+    "id": 495,
+    "h": "盐",
+    "p": "yán",
+    "en": "salt"
+  },
+  {
+    "id": 496,
+    "h": "严格",
+    "p": "yángé",
+    "en": "strict"
+  },
+  {
+    "id": 497,
+    "h": "严重",
+    "p": "yánzhòng",
+    "en": "serious"
+  },
+  {
+    "id": 498,
+    "h": "研究",
+    "p": "yánjiū",
+    "en": "research"
+  },
+  {
+    "id": 499,
+    "h": "演出",
+    "p": "yǎnchū",
+    "en": "show"
+  },
+  {
+    "id": 500,
+    "h": "演员",
+    "p": "yǎnyuán",
+    "en": "performer, actor"
+  },
+  {
+    "id": 501,
+    "h": "眼镜",
+    "p": "yǎnjìng",
+    "en": "glasses"
+  },
+  {
+    "id": 502,
+    "h": "阳光",
+    "p": "yángguāng",
+    "en": "Sunshine"
+  },
+  {
+    "id": 503,
+    "h": "养成",
+    "p": "yǎngchéng",
+    "en": "Cultivate"
+  },
+  {
+    "id": 504,
+    "h": "样子",
+    "p": "yàngzi",
+    "en": "A look"
+  },
+  {
+    "id": 505,
+    "h": "邀请",
+    "p": "yāoqǐng",
+    "en": "Invitation"
+  },
+  {
+    "id": 506,
+    "h": "要是",
+    "p": "yàoshi",
+    "en": "If"
+  },
+  {
+    "id": 507,
+    "h": "钥匙",
+    "p": "yàoshi",
+    "en": "Key"
+  },
+  {
+    "id": 508,
+    "h": "也许",
+    "p": "yěxǔ",
+    "en": "perhaps"
+  },
+  {
+    "id": 509,
+    "h": "页",
+    "p": "yè",
+    "en": "page"
+  },
+  {
+    "id": 510,
+    "h": "叶子",
+    "p": "yèzi",
+    "en": "Leaf"
+  },
+  {
+    "id": 511,
+    "h": "一切",
+    "p": "yíqiè",
+    "en": "everything"
+  },
+  {
+    "id": 512,
+    "h": "以",
+    "p": "yǐ",
+    "en": "with"
+  },
+  {
+    "id": 513,
+    "h": "以为",
+    "p": "yǐwéi",
+    "en": "Think"
+  },
+  {
+    "id": 514,
+    "h": "意见",
+    "p": "yìjiàn",
+    "en": "Opinion"
+  },
+  {
+    "id": 515,
+    "h": "艺术",
+    "p": "yìshù",
+    "en": "Art"
+  },
+  {
+    "id": 516,
+    "h": "因此",
+    "p": "yīncǐ",
+    "en": "therefore"
+  },
+  {
+    "id": 517,
+    "h": "引起",
+    "p": "yǐnqǐ",
+    "en": "cause"
+  },
+  {
+    "id": 518,
+    "h": "印象",
+    "p": "yìnxiàng",
+    "en": "impression"
+  },
+  {
+    "id": 519,
+    "h": "应聘",
+    "p": "yìngpìn",
+    "en": "Apply for"
+  },
+  {
+    "id": 520,
+    "h": "赢",
+    "p": "yíng",
+    "en": "win"
+  },
+  {
+    "id": 521,
+    "h": "勇敢",
+    "p": "yǒnggǎn",
+    "en": "Brave"
+  },
+  {
+    "id": 522,
+    "h": "永远",
+    "p": "yǒngyuǎn",
+    "en": "forever"
+  },
+  {
+    "id": 523,
+    "h": "优点",
+    "p": "yōudiǎn",
+    "en": "Advantage"
+  },
+  {
+    "id": 524,
+    "h": "优秀",
+    "p": "yōuxiù",
+    "en": "excellent"
+  },
+  {
+    "id": 525,
+    "h": "幽默",
+    "p": "yōumò",
+    "en": "Humor"
+  },
+  {
+    "id": 526,
+    "h": "由",
+    "p": "yóu",
+    "en": "from"
+  },
+  {
+    "id": 527,
+    "h": "由于",
+    "p": "yóuyú",
+    "en": "Because"
+  },
+  {
+    "id": 528,
+    "h": "邮局",
+    "p": "yóujú",
+    "en": "Post Office"
+  },
+  {
+    "id": 529,
+    "h": "尤其",
+    "p": "yóuqí",
+    "en": "especially"
+  },
+  {
+    "id": 530,
+    "h": "有趣",
+    "p": "yǒuqù",
+    "en": "interesting"
+  },
+  {
+    "id": 531,
+    "h": "友好",
+    "p": "yǒuhǎo",
+    "en": "friendly"
+  },
+  {
+    "id": 532,
+    "h": "友谊",
+    "p": "yǒuyì",
+    "en": "friendship"
+  },
+  {
+    "id": 533,
+    "h": "愉快",
+    "p": "yúkuài",
+    "en": "Cheerful"
+  },
+  {
+    "id": 534,
+    "h": "于是",
+    "p": "yúshì",
+    "en": "Therefore"
+  },
+  {
+    "id": 535,
+    "h": "与",
+    "p": "yǔ",
+    "en": "and"
+  },
+  {
+    "id": 536,
+    "h": "语法",
+    "p": "yǔfǎ",
+    "en": "grammar"
+  },
+  {
+    "id": 537,
+    "h": "语言",
+    "p": "yǔyán",
+    "en": "language"
+  },
+  {
+    "id": 538,
+    "h": "羽毛球",
+    "p": "yǔmáoqiú",
+    "en": "Badminton"
+  },
+  {
+    "id": 539,
+    "h": "预习",
+    "p": "yùxí",
+    "en": "Preview"
+  },
+  {
+    "id": 540,
+    "h": "原来",
+    "p": "yuánlái",
+    "en": "Original"
+  },
+  {
+    "id": 541,
+    "h": "原谅",
+    "p": "yuánliàng",
+    "en": "Forgive"
+  },
+  {
+    "id": 542,
+    "h": "原因",
+    "p": "yuányīn",
+    "en": "Reason"
+  },
+  {
+    "id": 543,
+    "h": "约会",
+    "p": "yuēhuì",
+    "en": "Date"
+  },
+  {
+    "id": 544,
+    "h": "阅读",
+    "p": "yuèdú",
+    "en": "Read"
+  },
+  {
+    "id": 545,
+    "h": "云",
+    "p": "yún",
+    "en": "cloud"
+  },
+  {
+    "id": 546,
+    "h": "允许",
+    "p": "yǔnxǔ",
+    "en": "allow"
+  },
+  {
+    "id": 547,
+    "h": "杂志",
+    "p": "zázhì",
+    "en": "Magazine"
+  },
+  {
+    "id": 548,
+    "h": "咱们",
+    "p": "zánmen",
+    "en": "We"
+  },
+  {
+    "id": 549,
+    "h": "暂时",
+    "p": "zànshí",
+    "en": "temporary"
+  },
+  {
+    "id": 550,
+    "h": "脏",
+    "p": "zāng",
+    "en": "dirty"
+  },
+  {
+    "id": 551,
+    "h": "责任",
+    "p": "zérèn",
+    "en": "responsibility"
+  },
+  {
+    "id": 552,
+    "h": "增加",
+    "p": "zēngjiā",
+    "en": "increase"
+  },
+  {
+    "id": 553,
+    "h": "占线",
+    "p": "zhànxiàn",
+    "en": "(line) Busy"
+  },
+  {
+    "id": 554,
+    "h": "招聘",
+    "p": "zhāopìn",
+    "en": "recruit"
+  },
+  {
+    "id": 555,
+    "h": "照",
+    "p": "zhào",
+    "en": "reflect"
+  },
+  {
+    "id": 556,
+    "h": "真正",
+    "p": "zhēnzhèng",
+    "en": "real"
+  },
+  {
+    "id": 557,
+    "h": "整理",
+    "p": "zhěnglǐ",
+    "en": "Arrangement"
+  },
+  {
+    "id": 558,
+    "h": "正常",
+    "p": "zhèngcháng",
+    "en": "normal"
+  },
+  {
+    "id": 559,
+    "h": "正好",
+    "p": "zhènghǎo",
+    "en": "Just right"
+  },
+  {
+    "id": 560,
+    "h": "正确",
+    "p": "zhèngquè",
+    "en": "Correct"
+  },
+  {
+    "id": 561,
+    "h": "正式",
+    "p": "zhèngshì",
+    "en": "formal"
+  },
+  {
+    "id": 562,
+    "h": "证明",
+    "p": "zhèngmíng",
+    "en": "Prove"
+  },
+  {
+    "id": 563,
+    "h": "之",
+    "p": "zhī",
+    "en": "of"
+  },
+  {
+    "id": 564,
+    "h": "支持",
+    "p": "zhīchí",
+    "en": "Support"
+  },
+  {
+    "id": 565,
+    "h": "知识",
+    "p": "zhīshi",
+    "en": "knowledge"
+  },
+  {
+    "id": 566,
+    "h": "值得",
+    "p": "zhídé",
+    "en": "Worth"
+  },
+  {
+    "id": 567,
+    "h": "直接",
+    "p": "zhíjiē",
+    "en": "direct"
+  },
+  {
+    "id": 568,
+    "h": "植物",
+    "p": "zhíwù",
+    "en": "Botany, plant"
+  },
+  {
+    "id": 569,
+    "h": "职业",
+    "p": "zhíyè",
+    "en": "Occupation"
+  },
+  {
+    "id": 570,
+    "h": "指",
+    "p": "zhǐ",
+    "en": "finger, to point"
+  },
+  {
+    "id": 571,
+    "h": "只好",
+    "p": "zhǐhǎo",
+    "en": "have to"
+  },
+  {
+    "id": 572,
+    "h": "只要",
+    "p": "zhǐyào",
+    "en": "as long as"
+  },
+  {
+    "id": 573,
+    "h": "质量",
+    "p": "zhìliàng",
+    "en": "quality"
+  },
+  {
+    "id": 574,
+    "h": "至少",
+    "p": "zhìshǎo",
+    "en": "at least"
+  },
+  {
+    "id": 575,
+    "h": "重",
+    "p": "zhòng",
+    "en": "heavy"
+  },
+  {
+    "id": 576,
+    "h": "重点",
+    "p": "zhòngdiǎn",
+    "en": "A key"
+  },
+  {
+    "id": 577,
+    "h": "重视",
+    "p": "zhòngshì",
+    "en": "importance, attach importance to"
+  },
+  {
+    "id": 578,
+    "h": "周围",
+    "p": "zhōuwéi",
+    "en": "around"
+  },
+  {
+    "id": 579,
+    "h": "主意",
+    "p": "zhǔyi",
+    "en": "idea"
+  },
+  {
+    "id": 580,
+    "h": "祝贺",
+    "p": "zhùhè",
+    "en": "Congratulate"
+  },
+  {
+    "id": 581,
+    "h": "著名",
+    "p": "zhùmíng",
+    "en": "famous"
+  },
+  {
+    "id": 582,
+    "h": "专门",
+    "p": "zhuānmén",
+    "en": "specialized"
+  },
+  {
+    "id": 583,
+    "h": "专业",
+    "p": "zhuānyè",
+    "en": "major"
+  },
+  {
+    "id": 584,
+    "h": "转",
+    "p": "zhuàn",
+    "en": "turn"
+  },
+  {
+    "id": 585,
+    "h": "赚",
+    "p": "zhuàn",
+    "en": "earn"
+  },
+  {
+    "id": 586,
+    "h": "准确",
+    "p": "zhǔnquè",
+    "en": "accuracy"
+  },
+  {
+    "id": 587,
+    "h": "准时",
+    "p": "zhǔnshí",
+    "en": "on time"
+  },
+  {
+    "id": 588,
+    "h": "仔细",
+    "p": "zǐxì",
+    "en": "careful"
+  },
+  {
+    "id": 589,
+    "h": "自然",
+    "p": "zìrán",
+    "en": "natural"
+  },
+  {
+    "id": 590,
+    "h": "自信",
+    "p": "zìxìn",
+    "en": "self-confidence"
+  },
+  {
+    "id": 591,
+    "h": "总结",
+    "p": "zǒngjié",
+    "en": "summary"
+  },
+  {
+    "id": 592,
+    "h": "租",
+    "p": "zū",
+    "en": "rent"
+  },
+  {
+    "id": 593,
+    "h": "最好",
+    "p": "zuìhǎo",
+    "en": "Best"
+  },
+  {
+    "id": 594,
+    "h": "尊重",
+    "p": "zūnzhòng",
+    "en": "respect"
+  },
+  {
+    "id": 595,
+    "h": "左右",
+    "p": "zuǒyòu",
+    "en": "About"
+  },
+  {
+    "id": 596,
+    "h": "座",
+    "p": "zuò",
+    "en": "Seat"
+  },
+  {
+    "id": 597,
+    "h": "作家",
+    "p": "zuòjiā",
+    "en": "writer"
+  },
+  {
+    "id": 598,
+    "h": "座位",
+    "p": "zuòwèi",
+    "en": "seat"
+  },
+  {
+    "id": 599,
+    "h": "作用",
+    "p": "zuòyòng",
+    "en": "Effect"
+  },
+  {
+    "id": 600,
+    "h": "作者",
+    "p": "zuòzhě",
+    "en": "author"
+  }
+]

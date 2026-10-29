@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Latihan Tulis Hanzi & Tantangan Kalimat HSK 4</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- HanziWriter CDN for stroke-by-stroke quiz & animation -->
+  <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+</head>
+<body>
+  <canvas id="confetti-canvas" class="confetti-canvas"></canvas>
+
+  <div class="container">
+    <!-- Header Banner -->
+    <header class="header-banner">
+      <h1>RECALL FROM MEMORY</h1>
+      <p>Latih daya ingat menulis Hanzi di kanvas & taklukkan tantangan membuat kalimat HSK 4</p>
+    </header>
+
+    <!-- Web App Main Card -->
+    <main class="web-app-container">
+      <div class="screen-area">
+        <!-- Top Navigation Bar -->
+        <div class="top-nav">
+          <div class="nav-left">
+            <button id="btn-open-vocab-modal" class="btn-back-link" title="Daftar 600 Kosakata HSK 4">
+              <span>📚</span> Daftar HSK 4 (600)
+            </button>
+            <button id="btn-random-word" class="btn-back-link" title="Pilih Kata Acak">
+              <span>🎲</span> Acak
+            </button>
+          </div>
+
+          <div class="nav-center">
+            <button class="nav-pill active" id="pill-vocab">Kuis Hanzi</button>
+            <button class="nav-pill" id="pill-challenge">Tantangan Kalimat</button>
+          </div>
+
+          <div class="nav-right">
+            <div class="word-counter-badge" id="word-progress-badge">Kata 1 dari 600</div>
+          </div>
+        </div>
+
+        <!-- Mode & Grid Control Bar -->
+        <div class="toolbar">
+          <div class="mode-selector">
+            <span style="font-size: 0.85rem; font-weight: 700; color: #475569;">Mode Menulis:</span>
+            <button id="btn-mode-quiz" class="mode-btn active" title="Kuis urutan goresan Hanzi otomatis">
+               order stroke (Otomatis)
+            </button>
+            <button id="btn-mode-freehand" class="mode-btn" title="Gambar bebas seperti di Paint">
+               Tulis Bebas (Paint)
+            </button>
+          </div>
+
+          <div class="grid-selector">
+            <span>Kisi Garis:</span>
+            <button class="grid-btn active" data-grid="mizige" title="米字格 - 8 Garis">米字格 (Mizi)</button>
+            <button class="grid-btn" data-grid="tianzige" title="田字格 - 4 Kotak">田字格 (Tianzi)</button>
+            <button class="grid-btn" data-grid="blank" title="Tanpa Garis">Polos</button>
+          </div>
+        </div>
+
+        <!-- Two-Box Main Practice Grid (Left: Pinyin & Meaning, Right: Writing Canvas) -->
+        <div class="practice-grid">
+          
+          <!-- LEFT BOX: Question, Meaning, Pinyin, Controls -->
+          <div class="info-column">
+            <!-- Prompt Card -->
+            <div class="card prompt-card">
+              <div class="card-label" id="question-index-label">Question 1 of 600</div>
+              
+              <div class="pinyin-display">
+                <span id="pinyin-text">àiqíng</span>
+                <button id="btn-speak-vocab" class="btn-speaker" title="Dengarkan pengucapan Mandarin">
+                  🔊
+                </button>
+              </div>
+
+              <div class="meaning-text" id="meaning-en">Love</div>
+              <div class="meaning-id" id="meaning-id">Cinta, asmara</div>
+              
+              <div class="hint-prompt" id="prompt-instruction">
+                Tuliskan karakter Hanzi dari ingatanmu di kotak sebelah kanan.
+              </div>
+
+              <!-- Character Selector Tabs (for 2+ character words) -->
+              <div class="char-tabs-wrapper" id="char-tabs-wrapper">
+                <div class="char-tabs-label">Karakter yang sedang ditulis:</div>
+                <div class="char-tabs" id="char-tabs-container">
+                  <!-- Populated by JS -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Answer & Hint Card -->
+            <div class="card answer-card">
+              <div class="answer-header">
+                <div class="card-label">Jawaban & Bantuan</div>
+                <button id="btn-toggle-reveal" class="btn-reveal">
+                  👁️ Intip Karakter
+                </button>
+              </div>
+
+              <div class="target-hanzi-display">
+                <div id="hanzi-reveal-box" class="hanzi-reveal-box hidden-char">?</div>
+                <div class="stroke-tools">
+                  <button id="btn-animate-stroke" class="btn-stroke-tool" title="Putar animasi urutan goresan">
+                    ▶️ Animasi Goresan
+                  </button>
+                  <button id="btn-stroke-count" class="btn-stroke-tool" title="Tampilkan panduan goresan">
+                    💡 Panduan
+                  </button>
+                </div>
+              </div>
+
+              <div class="answer-buttons-row">
+                <button id="btn-mark-incorrect" class="btn-answer btn-incorrect">
+                  ✕ Salah / Ulangi
+                </button>
+                <button id="btn-mark-correct" class="btn-answer btn-correct">
+                  ✓ Benar (Lanjut)
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT BOX: Blank Writing Canvas (Kayak di Paint / Kuis Goresan) -->
+          <div class="canvas-column">
+            <div class="canvas-card">
+              <div class="canvas-header">
+                <div class="canvas-title">
+                  <span>🖌️ Kanvas Menulis</span>
+                  <span id="canvas-mode-badge" style="font-size: 0.78rem; background: #e0f2fe; color: #0284c7; padding: 2px 8px; border-radius: 6px;">Mode: Kuis Otomatis</span>
+                </div>
+                <div class="canvas-actions">
+                  <button id="btn-toggle-watermark" class="btn-canvas-action" title="Tampilkan bayangan Hanzi tipis">
+                    👻 Bayangan
+                  </button>
+                  <button id="btn-undo-stroke" class="btn-canvas-action" title="Urungkan goresan terakhir">
+                    ↩️ Undo
+                  </button>
+                  <button id="btn-clear-canvas" class="btn-canvas-action btn-clear" title="Bersihkan kanvas">
+                    Clear
+                  </button>
+                </div>
+              </div>
+
+              <!-- Canvas Drawing Area -->
+              <div class="canvas-wrapper" id="canvas-wrapper">
+                <!-- SVG Grid overlay (Mizige / Tianzige) -->
+                <svg id="grid-svg" class="grid-svg-overlay" viewBox="0 0 400 400">
+                  <!-- Generated by JS -->
+                </svg>
+
+                <!-- Watermark guide -->
+                <div id="watermark-overlay" class="watermark-overlay hidden">爱</div>
+
+                <!-- HanziWriter quiz target -->
+                <div id="hanzi-writer-container"></div>
+
+                <!-- Freehand drawing canvas (Paint mode) -->
+                <canvas id="freehand-canvas" width="400" height="400"></canvas>
+              </div>
+
+              <!-- Canvas Controls (Brush thickness & tools for Freehand Paint) -->
+              <div class="canvas-toolbar">
+                <div class="brush-sizes" id="paint-tools">
+                  <span>Tebal Kuas:</span>
+                  <button class="btn-brush-size" data-size="4" title="Tipis"><span class="brush-dot-s"></span></button>
+                  <button class="btn-brush-size active" data-size="8" title="Sedang"><span class="brush-dot-m"></span></button>
+                  <button class="btn-brush-size" data-size="14" title="Tebal"><span class="brush-dot-l"></span></button>
+                  <button id="btn-check-drawing" class="btn-stroke-tool" style="margin-left: 8px; background: #fef08a; border-color: #fde047;" title="Cek kecocokan bentuk tulisan tangan Anda">
+                    🔍 Cek Bentuk Tulisan
+                  </button>
+                </div>
+
+                <div style="font-size: 0.8rem; color: #94a3b8;">
+                  Touch & Stylus didukung
+                </div>
+              </div>
+
+              <!-- Status Feedback Bar -->
+              <div id="stroke-status-bar" class="stroke-status-bar">
+                Goreskan karakter di kanvas sesuai urutan stroke...
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- CHALLENGE SECTION: Buat & Tulis Kalimat HSK 4 -->
+        <section class="challenge-section" id="challenge-section">
+          <div class="challenge-header">
+            <div class="challenge-title-group">
+              <h2>🎯 Latihan & Tantangan Membuat Kalimat (造句挑战)</h2>
+              <p>Tuliskan kalimat lengkap di lembar bergaris (田字格) atau susun kata menjadi kalimat utuh</p>
+            </div>
+            <div class="challenge-header-controls">
+              <div class="challenge-target-badge" id="challenge-target-word">
+                Target: 爱情 (àiqíng)
+              </div>
+              <div class="sentence-counter-badge" id="sentence-counter-badge">
+                Kalimat 1 dari 2
+              </div>
+              <button id="btn-next-sentence" class="btn-sentence-switch" title="Latihan variasi kalimat lain untuk kata ini">
+                🔄 Ganti Soal Kalimat
+              </button>
+            </div>
+          </div>
+
+          <div class="challenge-body">
+            <!-- Tabs: Tulis Kalimat di Lembar Bergaris vs Susun Kalimat vs Ketik Kalimat -->
+            <div class="challenge-tabs">
+              <button class="btn-ch-tab active" id="tab-sentence-write">
+                ✍️ Tulis Kalimat di Lembar (田字格)
+              </button>
+              <button class="btn-ch-tab" id="tab-scramble">
+                🧩 Susun Kata Menjadi Kalimat
+              </button>
+              <button class="btn-ch-tab" id="tab-free-writing">
+                ⌨️ Ketik Kalimat Sendiri
+              </button>
+            </div>
+
+            <!-- TAB 1: Tulis Kalimat di Kanvas (Handwriting Canvas - Writing Instead of Typing) -->
+            <div id="view-sentence-write" class="sentence-write-box">
+              <!-- Sentence Prompt Card -->
+              <div class="sentence-prompt-card">
+                <div class="sentence-prompt-header">
+                  <span class="prompt-title">Kalimat Latihan yang Harus Ditulis:</span>
+                  <div class="sentence-prompt-actions">
+                    <button id="btn-speak-sentence-target" class="btn-stroke-tool" title="Dengarkan pelafalan kalimat Mandarin">
+                      🔊 Dengarkan
+                    </button>
+                    <button id="btn-toggle-peek-sentence" class="btn-stroke-tool" title="Sembunyikan/tampilkan kalimat untuk menguji daya ingat">
+                      👁️ Intip Kalimat
+                    </button>
+                    <button id="btn-toggle-sentence-watermark" class="btn-stroke-tool active" title="Tampilkan bayangan Hanzi tipis di kotak garis">
+                      👻 Bayangan: ON
+                    </button>
+                  </div>
+                </div>
+
+                <div class="sentence-display-area" id="sentence-display-area">
+                  <div class="sentence-target-zh" id="sentence-target-zh">他们相爱多年，爱情非常深厚。</div>
+                  <div class="sentence-target-py" id="sentence-target-py">Tāmen xiāng'ài duōnián, àiqíng fēicháng shēnhòu.</div>
+                  <div class="sentence-target-id" id="sentence-target-id">Arti: Mereka saling mencintai bertahun-tahun, cintanya sangat mendalam.</div>
+                </div>
+
+                <!-- Interactive Character Chips of the Sentence -->
+                <div class="sentence-chars-selector">
+                  <span class="chars-label">Klik karakter untuk latihan urutan goresan:</span>
+                  <div class="sentence-char-chips" id="sentence-char-chips">
+                    <!-- Populated by JS -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- Wide Sentence Writing Canvas Sheet (Tian Zi Ge / Copybook Style) -->
+              <div class="sentence-canvas-wrapper">
+                <div class="canvas-header-bar">
+                  <div class="canvas-sheet-title">
+                    <span>📝 Lembar Tulis Bergaris (田字格造句本)</span>
+                    <span style="font-size: 0.8rem; color: #64748b;">— Tulis setiap karakter dengan mouse, stylus, atau sentuhan jari</span>
+                  </div>
+                  <div class="canvas-sheet-actions">
+                    <button id="btn-undo-sentence-stroke" class="btn-canvas-action" title="Urungkan goresan terakhir">
+                      ↩️ Undo
+                    </button>
+                    <button id="btn-clear-sentence-canvas" class="btn-canvas-action btn-clear" title="Bersihkan seluruh lembar tulisan">
+                      🗑️ Hapus Lembar
+                    </button>
+                  </div>
+                </div>
+
+                <div class="sentence-canvas-board" id="sentence-canvas-board">
+                  <canvas id="sentence-draw-canvas" width="940" height="250"></canvas>
+                </div>
+
+                <!-- Sentence Writing Toolbar -->
+                <div class="sentence-canvas-toolbar">
+                  <div class="tool-group">
+                    <span style="font-size: 0.82rem; font-weight: 600; color: #475569;">Tebal Pena:</span>
+                    <button class="btn-s-brush active" data-size="3" title="Tipis">Tipis (3px)</button>
+                    <button class="btn-s-brush" data-size="6" title="Sedang">Sedang (6px)</button>
+                    <button class="btn-s-brush" data-size="10" title="Tebal">Tebal (10px)</button>
+                  </div>
+
+                  <div class="tool-group">
+                    <span style="font-size: 0.82rem; font-weight: 600; color: #475569;">Warna Tinta:</span>
+                    <button class="btn-s-color active" data-color="#0f172a" style="background:#0f172a;" title="Tinta Hitam Kaligrafi"></button>
+                    <button class="btn-s-color" data-color="#1d4ed8" style="background:#1d4ed8;" title="Tinta Biru"></button>
+                    <button class="btn-s-color" data-color="#b91c1c" style="background:#b91c1c;" title="Tinta Merah"></button>
+                  </div>
+
+                  <button id="btn-finish-sentence-writing" class="btn-check-sentence" style="margin-left: auto;">
+                    ✓ Selesai Menulis Kalimat
+                  </button>
+                </div>
+
+                <!-- Sentence writing feedback message -->
+                <div id="sentence-writing-feedback" class="stroke-status-bar" style="margin-top: 12px; display: none;">
+                  Bagus sekali! Latihan menulis kalimat selesai.
+                </div>
+              </div>
+            </div>
+
+            <!-- TAB 2: Susun Kalimat (Scramble Word Puzzle) -->
+            <div id="view-scramble" class="scramble-box" style="display: none;">
+              <div class="scramble-instruction">
+                Ketuk kata-kata di bawah ini secara berurutan untuk menyusun kalimat yang benar:
+              </div>
+
+              <!-- Sentence Dropzone -->
+              <div class="dropzone-sentence" id="sentence-dropzone">
+                <span class="dropzone-placeholder" id="dropzone-hint">Klik kata di bawah untuk meletakkannya di sini...</span>
+              </div>
+
+              <!-- Scrambled Word Tiles Pool -->
+              <div class="scramble-tiles-pool" id="scramble-tiles-pool">
+                <!-- Word tiles inserted by JS -->
+              </div>
+
+              <div class="scramble-actions">
+                <button id="btn-reset-scramble" class="btn-stroke-tool">
+                  🔄 Acak Ulang
+                </button>
+                <button id="btn-check-sentence" class="btn-check-sentence">
+                  Periksa Kalimat ✓
+                </button>
+              </div>
+
+              <!-- Result info after correct sentence -->
+              <div class="scramble-result-box" id="scramble-result-box">
+                <div class="sentence-zh" id="res-sentence-zh">他们相爱多年，爱情非常深厚。</div>
+                <div class="sentence-pinyin" id="res-sentence-pinyin">Tāmen xiāng'ài duōnián, àiqíng fēicháng shēnhòu.</div>
+                <div class="sentence-meaning" id="res-sentence-meaning">Arti: Mereka saling mencintai bertahun-tahun, cintanya sangat mendalam.</div>
+                <button id="btn-speak-sentence" class="btn-stroke-tool" style="margin-top: 10px;">
+                  🔊 Dengarkan Pelafalan Kalimat
+                </button>
+              </div>
+            </div>
+
+            <!-- TAB 3: Tulis Kalimat Sendiri (Free Writing / Typing) -->
+            <div id="view-free-writing" class="free-writing-box" style="display: none;">
+              <div class="writing-prompt">
+                Tulis kalimat Mandarin Anda yang mengandung kata <strong id="free-target-word" style="color: #4f46e5;">爱情</strong>:
+              </div>
+
+              <textarea id="free-sentence-input" class="sentence-textarea" placeholder="Contoh: 他们之间的爱情非常让人感动。(Tulis kalimat di sini...)"></textarea>
+
+              <div class="writing-tools-row">
+                <div class="target-check-badge" id="badge-word-included">
+                  Status: Kata target belum ditemukan
+                </div>
+
+                <div style="display: flex; gap: 8px;">
+                  <button id="btn-speak-free-sentence" class="btn-stroke-tool">
+                    🔊 Baca Kalimat Saya
+                  </button>
+                  <button id="btn-show-sample-sentence" class="btn-stroke-tool" style="background: #eef2ff; color: #4f46e5; border-color: #c7d2fe;">
+                    💡 Lihat Contoh & Tata Bahasa
+                  </button>
+                </div>
+              </div>
+
+              <!-- Sample Sentences & Grammar hints -->
+              <div id="sample-sentence-hint-box" style="display: none; margin-top: 14px; padding: 14px; background: white; border-radius: 10px; border: 1px solid #c7d2fe;">
+                <div style="font-weight: 700; color: #3730a3; margin-bottom: 6px;">Contoh Kalimat Standar HSK 4:</div>
+                <div id="sample-zh-text" style="font-size: 1.15rem; font-weight: 600; color: #1e293b;">-</div>
+                <div id="sample-py-text" style="font-size: 0.9rem; color: #059669; font-weight: 600;">-</div>
+                <div id="sample-id-text" style="font-size: 0.88rem; color: #475569; margin-top: 4px;">-</div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+          </div>
+        </section>
+
+        <!-- Bottom Footer Navigation -->
+        <div class="bottom-footer-bar">
+          <button id="btn-prev-word" class="btn-footer-nav">
+            ← Kata Sebelumnya
+          </button>
+          
+          <div class="nav-buttons-group">
+            <button id="btn-jump-challenge" class="btn-footer-nav" style="background: #fdf4ff; border-color: #f0abfc; color: #a21caf;">
+              ⚡ Lompat ke Tantangan Kalimat
+            </button>
+            <button id="btn-next-word" class="btn-footer-nav primary">
+              Kata Berikutnya →
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- Word Selection Modal (600 HSK 4 Words) -->
+  <div class="modal-overlay" id="vocab-modal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3>Daftar Kosakata HSK 4 (600 Kata)</h3>
+        <button id="btn-close-modal" class="btn-close-modal">✕</button>
+      </div>
+
+      <input type="text" id="vocab-search-input" class="search-input-box" placeholder="Cari Hanzi, Pinyin, atau Arti (misal: 爱情, aiqing, cinta, arrange)...">
+
+      <div class="vocab-list-scroll" id="vocab-list-container">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="hsk4_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

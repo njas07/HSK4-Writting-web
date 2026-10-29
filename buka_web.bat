@@ -1,0 +1,3 @@
+@echo off
+echo Membuka Aplikasi Latihan Tulis Hanzi & Tantangan Kalimat HSK 4...
+start "" "%~dp0index.html"
